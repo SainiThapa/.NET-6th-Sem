@@ -91,11 +91,55 @@ namespace Saini_dotNET
             Console.WriteLine("Enter the value of a for Arithmetic left Shift operation: ");
             a = Console.ReadLine();
             i = Convert.ToInt32(a);
-            Console.WriteLine("{0} >> 1 = {1}", i, i >> 1);
+            Console.WriteLine("{0} << 1 = {1}", i, i << 1);
             Console.WriteLine("Enter the value of b for Arithmetic right Shift operation: ");
             b = Console.ReadLine();
             j = Convert.ToInt32(b);
-            Console.WriteLine("{0} << 1 = {1}",j,j << 1);
+            Console.WriteLine("{0} >> 1 = {1}",j,j >> 1);
+        }
+        static void Cont_Break() 
+        {
+            Console.WriteLine("Example of Continue: ");
+            for(int i=0; i < 10; i++)
+            {if (i % 2 == 0)
+                    continue;
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("Example of Break: ");
+            for(int i=0;i < 10;i++)
+            {
+                if (i > 5)
+                    break;
+                Console.WriteLine(i);
+            }
+        }
+        static void BooleanDataType()
+        {
+            bool YES=true;
+            Console.WriteLine("Enter true or false: ");
+            string answer=Console.ReadLine();
+            bool ans2=Convert.ToBoolean(answer);
+            if (ans2 == YES)
+                Console.WriteLine("True value");
+            else
+                Console.WriteLine("False Value");
+        }
+        static void For_Each_Method()
+        {
+            var numbers = new List<int>() { 23, 24, 45, 76, 87 };
+            int sum = 0;
+            foreach (int num in numbers)
+            {
+                Console.WriteLine(num);
+                sum += num;
+            }
+            Console.WriteLine("Sum is " + sum+"\n");
+
+            string[] cars ={"BMW", "Ford", "Lamborghini", "Tesla"};
+            foreach (string car in cars)
+            {
+                Console.WriteLine(car);
+            }
         }
         static void Main(string[] args)
         {
@@ -109,7 +153,10 @@ namespace Saini_dotNET
             //WhileLooping();
             //SwitchCase();
             //BitwiseOperator();
-            ShiftOperation();
+            //ShiftOperation();
+            //Cont_Break();
+            //BooleanDataType();
+            For_Each_Method();
             Console.ReadKey();
         }
     }

@@ -141,7 +141,29 @@ namespace Saini_dotNET
                 Console.WriteLine(car);
             }
         }
-        static void Main(string[] args)
+    
+      /*  static void Enumeration()
+        {
+            enum Days
+        {
+            Monday, Tuesday, Wednesday, Friday, Saturday, Sunday
+        }
+        Console.WriteLine((int) Days.Monday);
+        Console.WriteLine((int) Days.Wednesday);
+        Console.WriteLine((int) Days.Saturday);
+        }*/
+      static void TernaryOp()
+        {
+            int a, b;
+            string c, d;
+            c = Console.ReadLine();
+            d=Console.ReadLine();
+            a=Convert.ToInt32(c); 
+            b=Convert.ToInt32(d);
+            var result=a>b?a:b;
+            Console.WriteLine(result + " is the greatest number");
+        }
+    static void Main(string[] args)
         {
             Console.WriteLine("Hello Saini");
             /*string a, b;
@@ -156,7 +178,9 @@ namespace Saini_dotNET
             //ShiftOperation();
             //Cont_Break();
             //BooleanDataType();
-            For_Each_Method();
+            //For_Each_Method();
+            //Enumeration();
+            TernaryOp();
             Console.ReadKey();
         }
     }

@@ -188,12 +188,12 @@ namespace Saini_dotNET
             /*student st1 = new student();
             Console.WriteLine(st1.maxSpeed);
             */
-            Player p1= new Player();
+            /*Player p1= new Player();
             Console.WriteLine("Player name = "+p1.name);
             Console.WriteLine("Player ID = "+p1.id);
             p1.SetId(32);
             Console.WriteLine("Player ID= " + p1.id);
-
+*/
             /*p1.name = "Sushil";       
             Console.WriteLine(p1.name);*/
             Program new1= new Program();
@@ -202,13 +202,13 @@ namespace Saini_dotNET
             //Console.WriteLine(p1.roll); will send an error cause roll is a private member of the Player class
             
             //GET SET
-            p1.Name = "Prabesh";
+/*            p1.Name = "Prabesh";
             Console.WriteLine("Name = "+p1.Name);
 
             // Inheritance
             Car c1= new Car();
             Console.WriteLine("Version = " + c1.version);
-            Console.WriteLine("Model name = "+c1.modelName);
+            Console.WriteLine("Model name = "+c1.modelName);*/
             
             //Polymorphism
             Animal myanimal1= new Animal();
@@ -220,11 +220,30 @@ namespace Saini_dotNET
 
             //Abstraction
 //            Creature obj1= new Creature(); /Cannot create an instance of the aabstract class or interface 'Creature'
-            goat mygoat=new goat();
+            /*goat mygoat=new goat();
             mygoat.animalsound();
             mygoat.sleep();
+*/
+            //Try and catch
+            /*try
+            {
+                string[] Names = new string[5];
+                Names[0] = "Saini";
+                Names[1] = "Sushil";
+                Names[2] = "Suman";
+                Names[3] = "Ramesh";
+                Names[4] = "Raaj";
+                //Names[5] = "Santosh";
+                foreach (string name in Names)
+                {
+                    Console.WriteLine(name);
+                }
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("Something went wrong");
+            }*/
             Console.ReadKey();
-            
         }
     }
 }

@@ -219,11 +219,11 @@ namespace Saini_dotNET
             myanimal3.animalsound();
 
             //Abstraction
-//            Creature obj1= new Creature(); /Cannot create an instance of the aabstract class or interface 'Creature'
-            /*goat mygoat=new goat();
+            //            Creature obj1= new Creature(); /Cannot create an instance of the aabstract class or interface 'Creature'
+            goat mygoat = new goat();
             mygoat.animalsound();
             mygoat.sleep();
-*/
+
             //Try and catch
             /*try
             {

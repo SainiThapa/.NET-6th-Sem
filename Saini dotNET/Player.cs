@@ -15,12 +15,12 @@ namespace Saini_dotNET
         {
             id = a;
         }
-        
         //CONSTRUCTOR
-        /*public Player() {
+        public Player()
+        {
             Console.WriteLine("THIS IS AN EXAMPLE OF CONSTRUCTOR IN C#");
             Console.WriteLine("New player is added ! ");
-        }*/
+        }
         //GET SET Properties
         public string Name
         {
@@ -28,7 +28,6 @@ namespace Saini_dotNET
             set { name1 = value; }
         }
         public string version = "Comfort 2.0";
-
     }
     class Car : Player
     {

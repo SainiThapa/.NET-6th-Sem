@@ -1,12 +1,26 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Project3
 {
+    class Program
+    {
+        class FileWrite
+        {
+            public void WriteData()
+            {
+                FileStream fs = new FileStream("E:\\test.txt", FileMode.Create, FileAccess.Write
+                sw = new StreamWriter(fs));
+                Console.WriteLine("Program to read the content from the user: ");
+
+            }
+        }
+    }
 
     internal class Program
     {

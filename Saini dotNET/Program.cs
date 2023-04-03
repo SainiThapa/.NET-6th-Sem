@@ -113,6 +113,15 @@ namespace Saini_dotNET
                     break;
                 Console.WriteLine(i);
             }
+            Console.WriteLine("Example of GOTO: ");
+            int j = 0;
+        start:
+            if (j < 5)
+            {
+                Console.WriteLine("j = " + j);
+                j++;
+            goto start;
+            }
         }
         static void BooleanDataType()
         {
@@ -142,21 +151,35 @@ namespace Saini_dotNET
                 Console.WriteLine(car);
             }
         }
+        enum Days
+        {
+            Monday, Tuesday, Wednesday, Friday, Saturday, Sunday
+        }
+        static void Enumeration()
+        {
 
-        /*  static void Enumeration()
-          {
-              enum Days
-          {
-              Monday, Tuesday, Wednesday, Friday, Saturday, Sunday
-          }
-          Console.WriteLine((int) Days.Monday);
-          Console.WriteLine((int) Days.Wednesday);
-          Console.WriteLine((int) Days.Saturday);
-          }*/
+            Console.WriteLine((int)Days.Monday);
+            Console.WriteLine((int)Days.Wednesday);
+            Console.WriteLine((int)Days.Saturday);
+        }
+        struct Drama 
+        {
+            public int year;
+            public string name;
+        }
+        static void structure()
+        {
+            Drama d=new Drama();
+            d.year = 2016;
+            d.name = "Goblin";
+            Console.WriteLine("Year = "+d.year+" Name = "+d.name);
+        }
+
         static void TernaryOp()
         {
             int a, b;
             string c, d;
+            Console.WriteLine("Enter two numbers: ");
             c = Console.ReadLine();
             d = Console.ReadLine();
             a = Convert.ToInt32(c);
@@ -167,49 +190,50 @@ namespace Saini_dotNET
 
     static void Main(string[] args)
         {
-            Console.WriteLine("Hello Saini");
-            /*string a, b;
+            /*Console.WriteLine("Hello Saini");
+            string a, b;
             Console.WriteLine("Input the value of a and b : ");
             a = Console.ReadLine();
             b = Console.ReadLine();
             Compare(a, b);
-            ForLooping();*/
-            
-        /*    WhileLooping();
+            ForLooping();
+            WhileLooping();
             SwitchCase();
             BitwiseOperator();
             ShiftOperation();
             Cont_Break();
             BooleanDataType();
             For_Each_Method();
+            structure();
             Enumeration();
-            TernaryOp();
-        */
-            /*student st1 = new student();
+            TernaryOp();*/
+
+            student st1 = new student();
             Console.WriteLine(st1.maxSpeed);
-            */
-            /*Player p1= new Player();
-            Console.WriteLine("Player name = "+p1.name);
-            Console.WriteLine("Player ID = "+p1.id);
+            st1.fullSpeed();
+
+            Player p1 = new Player();
+            Console.WriteLine("Player name = " + p1.name);
+            Console.WriteLine("Player ID = " + p1.id);
             p1.SetId(32);
             Console.WriteLine("Player ID= " + p1.id);
-*/
-            /*p1.name = "Sushil";       
-            Console.WriteLine(p1.name);*/
+
+            p1.name = "Sushil";
+            Console.WriteLine(p1.name);
             Program new1= new Program();
             Console.WriteLine(new1.model+" is the PRIVATE member of the class Program");
-            
-            //Console.WriteLine(p1.roll); will send an error cause roll is a private member of the Player class
-            
-            //GET SET
-/*            p1.Name = "Prabesh";
-            Console.WriteLine("Name = "+p1.Name);
 
-            // Inheritance
-            Car c1= new Car();
-            Console.WriteLine("Version = " + c1.version);
-            Console.WriteLine("Model name = "+c1.modelName);*/
-            
+            //Console.WriteLine(p1.roll); will send an error cause roll is a private member of the Player class
+
+            //GET SET
+            /*            p1.Name = "Prabesh";
+                        Console.WriteLine("Name = "+p1.Name);
+
+*/                        // Inheritance
+            Car c1 = new Car();
+                        Console.WriteLine("Version = " + c1.version);
+                        Console.WriteLine("Model name = "+c1.modelName);
+
             //Polymorphism
             Animal myanimal1= new Animal();
             Animal myanimal2 = new Pig();
@@ -219,7 +243,7 @@ namespace Saini_dotNET
             myanimal3.animalsound();
 
             //Abstraction
-            //            Creature obj1= new Creature(); /Cannot create an instance of the aabstract class or interface 'Creature'
+            //Creature obj1= new Creature(); /Cannot create an instance of the abstract class or interface 'Creature'
             goat mygoat = new goat();
             mygoat.animalsound();
             mygoat.sleep();
@@ -243,6 +267,7 @@ namespace Saini_dotNET
             {
                 Console.WriteLine("Something went wrong");
             }*/
+
             Console.ReadKey();
         }
     }

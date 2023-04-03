@@ -6,3 +6,11 @@ E:\Prisan 2\Prisan 2\obj\Debug\Prisan 2.csproj.SuggestedBindingRedirects.cache
 E:\Prisan 2\Prisan 2\obj\Debug\Prisan 2.csproj.CoreCompileInputs.cache
 E:\Prisan 2\Prisan 2\obj\Debug\Prisan 2.exe
 E:\Prisan 2\Prisan 2\obj\Debug\Prisan 2.pdb
+E:\Saini dotNET\Prisan 2\Prisan 2\bin\Debug\Prisan 2.exe.config
+E:\Saini dotNET\Prisan 2\Prisan 2\bin\Debug\Prisan 2.exe
+E:\Saini dotNET\Prisan 2\Prisan 2\bin\Debug\Prisan 2.pdb
+E:\Saini dotNET\Prisan 2\Prisan 2\obj\Debug\Prisan 2.csproj.AssemblyReference.cache
+E:\Saini dotNET\Prisan 2\Prisan 2\obj\Debug\Prisan 2.csproj.SuggestedBindingRedirects.cache
+E:\Saini dotNET\Prisan 2\Prisan 2\obj\Debug\Prisan 2.csproj.CoreCompileInputs.cache
+E:\Saini dotNET\Prisan 2\Prisan 2\obj\Debug\Prisan 2.exe
+E:\Saini dotNET\Prisan 2\Prisan 2\obj\Debug\Prisan 2.pdb

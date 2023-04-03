@@ -25,8 +25,8 @@ namespace Prisan_2
     }
     public interface class1
     {
-        public void Model_name();
-        public void Manufacturer();
+        void Model_name();
+        void Manufacturer();
     }
 
     public class Consolegame:class1

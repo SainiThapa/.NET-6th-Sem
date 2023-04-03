@@ -6,19 +6,49 @@ using System.Threading.Tasks;
 
 namespace Prisan_2
 {
+    class Indexer
+    {
+        private string[] names= new string[3];
+        public string this[int i]
+        {
+            get { return names[i]; }
+            set { names[i] = value; }
+        }
+    }
+
     internal class Program
     {
         static void Main(string[] args)
         {
-            Computer c1= new Computer();
-            Consolegame c2= new Consolegame();
-            Mobile c3 = new Mobile();
-            c1.Model_name();
-            c2.Model_name();
-            c3.Model_name();
-            Class_obj c4 = new Computer();
-            c4.price();
-            c4.Model_name();
+            //Polymorphism
+            //Computer c1= new Computer();
+            //Consolegame c2= new Consolegame();
+            //Mobile c3 = new Mobile();
+            //c1.Model_name();
+            //c2.Model_name();
+            //c3.Model_name();
+            ////abstraction
+            //Class_obj c4 = new Computer();
+            //c4.price();
+            //c4.Model_name();
+            ////Interface in c#
+            //c2.Model_name();
+            //c2.Manufacturer();
+            ////Indexer
+            Indexer i = new Indexer();
+            i[0] = "Suman";
+            i[1] = "Saini";
+            i[2] = "Tirtha";
+            for(int element=0;element<3;element++)
+            {
+                Console.WriteLine(i[element]);
+            }
+            Console.ReadKey();
+
+            // Partial class
+            STM s1=new STM("Saini",44);
+            s1.display();
+            Console.ReadKey();
 
         }
     }

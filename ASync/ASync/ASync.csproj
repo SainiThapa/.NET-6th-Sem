@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D4517CE4-6209-4A33-8646-E955E80170B3}</ProjectGuid>
+    <ProjectGuid>{EFF8CFD6-C467-41F9-A28A-96DC3E9F8884}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Project3</RootNamespace>
-    <AssemblyName>Project3</AssemblyName>
+    <RootNamespace>ASync</RootNamespace>
+    <AssemblyName>ASync</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Const_dest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

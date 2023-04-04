@@ -8,14 +8,12 @@ using System.Threading.Tasks;
 
 namespace Project3
 {
-    class Program
+    class Program1
     {
         class FileWrite
         {
             public void WriteData()
             {
-                FileStream fs = new FileStream("E:\\test.txt", FileMode.Create, FileAccess.Write
-                sw = new StreamWriter(fs));
                 Console.WriteLine("Program to read the content from the user: ");
 
             }
@@ -26,7 +24,7 @@ namespace Project3
     {
         static void Main(string[] args)
         {
-            ArrayList mylist = new ArrayList();
+            /*ArrayList mylist = new ArrayList();
             Hashtable ht= new Hashtable();
             ht.Add("44", "Saini");
             ht.Add("58", "Sushil");
@@ -50,7 +48,12 @@ namespace Project3
             for (int i = 0; i < mylist.Capacity; i++)
             {
                 Console.WriteLine(mylist[i]);
-            }
+            }*/
+
+            // Constructor and destructor
+            Const_dest c1= new Const_dest();
+            Const_dest c2 = new Const_dest(34);
+
             Console.ReadKey();
         }
     }

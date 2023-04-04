@@ -1,0 +1,8 @@
+E:\Saini dotNET\ASync\ASync\bin\Debug\ASync.exe.config
+E:\Saini dotNET\ASync\ASync\bin\Debug\ASync.exe
+E:\Saini dotNET\ASync\ASync\bin\Debug\ASync.pdb
+E:\Saini dotNET\ASync\ASync\obj\Debug\ASync.csproj.AssemblyReference.cache
+E:\Saini dotNET\ASync\ASync\obj\Debug\ASync.csproj.SuggestedBindingRedirects.cache
+E:\Saini dotNET\ASync\ASync\obj\Debug\ASync.csproj.CoreCompileInputs.cache
+E:\Saini dotNET\ASync\ASync\obj\Debug\ASync.exe
+E:\Saini dotNET\ASync\ASync\obj\Debug\ASync.pdb

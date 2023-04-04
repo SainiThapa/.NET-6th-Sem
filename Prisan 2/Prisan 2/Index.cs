@@ -25,6 +25,4 @@ namespace Prisan_2
         }
 
     }
-
-
 }

@@ -179,7 +179,6 @@ namespace Saini_dotNET
         {
             int a, b;
             string c, d;
-            Console.WriteLine("Enter two numbers: ");
             c = Console.ReadLine();
             d = Console.ReadLine();
             a = Convert.ToInt32(c);
@@ -190,7 +189,7 @@ namespace Saini_dotNET
 
     static void Main(string[] args)
         {
-            /*Console.WriteLine("Hello Saini");
+            Console.WriteLine("Hello Saini");
             string a, b;
             Console.WriteLine("Input the value of a and b : ");
             a = Console.ReadLine();
@@ -206,22 +205,25 @@ namespace Saini_dotNET
             For_Each_Method();
             structure();
             Enumeration();
-            TernaryOp();*/
+            TernaryOp();
+            Console.ReadKey();
+        }
+    }
+}
 
-            student st1 = new student();
+            /*student st1 = new student();
             Console.WriteLine(st1.maxSpeed);
-            st1.fullSpeed();
-
-            Player p1 = new Player();
-            Console.WriteLine("Player name = " + p1.name);
-            Console.WriteLine("Player ID = " + p1.id);
+            */
+            /*Player p1= new Player();
+            Console.WriteLine("Player name = "+p1.name);
+            Console.WriteLine("Player ID = "+p1.id);
             p1.SetId(32);
             Console.WriteLine("Player ID= " + p1.id);
-
-            p1.name = "Sushil";
-            Console.WriteLine(p1.name);
-            Program new1= new Program();
-            Console.WriteLine(new1.model+" is the PRIVATE member of the class Program");
+*/
+            /*p1.name = "Sushil";       
+            Console.WriteLine(p1.name);*/
+            //Program new1= new Program();
+            //Console.WriteLine(new1.model+" is the PRIVATE member of the class Program");
 
             //Console.WriteLine(p1.roll); will send an error cause roll is a private member of the Player class
 
@@ -229,24 +231,24 @@ namespace Saini_dotNET
             /*            p1.Name = "Prabesh";
                         Console.WriteLine("Name = "+p1.Name);
 
-*/                        // Inheritance
-            Car c1 = new Car();
+                        // Inheritance
+                        Car c1= new Car();
                         Console.WriteLine("Version = " + c1.version);
-                        Console.WriteLine("Model name = "+c1.modelName);
+                        Console.WriteLine("Model name = "+c1.modelName);*/
 
             //Polymorphism
-            Animal myanimal1= new Animal();
-            Animal myanimal2 = new Pig();
-            Animal myanimal3 = new Dog();
-            myanimal1.animalsound();
-            myanimal2.animalsound();
-            myanimal3.animalsound();
+            //Animal myanimal1= new Animal();
+            //Animal myanimal2 = new Pig();
+            //Animal myanimal3 = new Dog();
+            //myanimal1.animalsound();
+            //myanimal2.animalsound();
+            //myanimal3.animalsound();
 
             //Abstraction
-            //Creature obj1= new Creature(); /Cannot create an instance of the abstract class or interface 'Creature'
-            goat mygoat = new goat();
-            mygoat.animalsound();
-            mygoat.sleep();
+            //            Creature obj1= new Creature(); /Cannot create an instance of the aabstract class or interface 'Creature'
+            //goat mygoat = new goat();
+            //mygoat.animalsound();
+            //mygoat.sleep();
 
             //Try and catch
             /*try
@@ -267,8 +269,3 @@ namespace Saini_dotNET
             {
                 Console.WriteLine("Something went wrong");
             }*/
-
-            Console.ReadKey();
-        }
-    }
-}

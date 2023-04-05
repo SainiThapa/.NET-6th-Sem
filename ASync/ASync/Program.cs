@@ -8,12 +8,29 @@ namespace ASync
 {
     internal class Program
     {
+       public static async Task Function1()
+        {
+            await Task.Run(() =>
+                {
+                for(int i= 0; i < 10; i++)
+                {
+                    Console.WriteLine($"{i} number from function1");
+                }
+            });
+        }
+        public static async Task function2()
+        {
+            for(int i= 0;i<10; i++)
+            Console.WriteLine("Counter from function 2"); 
+        }
         static async Task Main()
         {
             Console.WriteLine("Starting program...");
 
             // Call a method asynchronously
-            await DoSomethingAsync();
+            await Function1();
+            function2();
+            //await DoSomethingAsync();
 
             Console.WriteLine("Program finished.");
             Console.ReadKey();
@@ -37,6 +54,5 @@ namespace ASync
             await Task.Delay(1000);
             Console.WriteLine("Async method finished.");
         }
-
     }
 }

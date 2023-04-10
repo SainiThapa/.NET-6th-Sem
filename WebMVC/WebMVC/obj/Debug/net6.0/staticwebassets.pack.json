@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\WebMVC.bundle.scp.css"
     },
     {
+      "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\Myfiles\\hello.txt",
+      "PackagePath": "staticwebassets\\Myfiles\\hello.txt"
+    },
+    {
       "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

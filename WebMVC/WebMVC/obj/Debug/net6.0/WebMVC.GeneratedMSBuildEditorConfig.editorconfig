@@ -16,8 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Saini dotNET\WebMVC\WebMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Saini dotNET/WebMVC/WebMVC/Views/BMCcontroller/Bmcview.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQk1DY29udHJvbGxlclxCbWN2aWV3LmNzaHRtbA==
+[E:/Saini dotNET/WebMVC/WebMVC/Views/Bmc/Help.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm1jXEhlbHAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Saini dotNET/WebMVC/WebMVC/Views/Bmc/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm1jXEhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Saini dotNET/WebMVC/WebMVC/Views/Bmc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm1jXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Saini dotNET/WebMVC/WebMVC/Views/Home/Index.cshtml]

@@ -13,8 +13,40 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\css\\styling.css",
+      "PackagePath": "staticwebassets\\css\\styling.css"
+    },
+    {
       "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\Pictu.png",
+      "PackagePath": "staticwebassets\\images\\Pictu.png"
+    },
+    {
+      "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\Picture.jpg",
+      "PackagePath": "staticwebassets\\images\\Picture.jpg"
+    },
+    {
+      "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\image.png",
+      "PackagePath": "staticwebassets\\images\\image.png"
+    },
+    {
+      "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\img1.jpg",
+      "PackagePath": "staticwebassets\\images\\img1.jpg"
+    },
+    {
+      "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\img22.jpg",
+      "PackagePath": "staticwebassets\\images\\img22.jpg"
+    },
+    {
+      "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\img33.jpg",
+      "PackagePath": "staticwebassets\\images\\img33.jpg"
+    },
+    {
+      "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
       "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\js\\site.js",

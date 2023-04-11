@@ -14,4 +14,16 @@
     <Folder Include="wwwroot\Myfiles\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\images\image.png" />
+    <None Include="wwwroot\images\img1.jpg" />
+    <None Include="wwwroot\images\img2.jpg" />
+    <None Include="wwwroot\images\img22.jpg" />
+    <None Include="wwwroot\images\img3.jpg" />
+    <None Include="wwwroot\images\img33.jpg" />
+    <None Include="wwwroot\images\logo.png" />
+    <None Include="wwwroot\images\Pictu.png" />
+    <None Include="wwwroot\images\Picture.jpg" />
+  </ItemGroup>
+
 </Project>

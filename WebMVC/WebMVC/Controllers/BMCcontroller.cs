@@ -24,6 +24,10 @@ namespace WebMVC.Controllers
         {
             return PartialView("Home");
         }
+        public IActionResult Saini()
+        {
+            return PartialView();
+        }
         public IActionResult Download() 
         {
             return File("Myfiles/hello.txt","text/plain","file23.dat");

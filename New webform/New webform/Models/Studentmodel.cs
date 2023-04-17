@@ -15,4 +15,11 @@ namespace New_webform.Models
         public string CollegeName { get; set; }
 
     }
+    public class Collegemodel
+    {
+        public string collegename { get; set; }
+        public string Addresss{ get; set; }
+        public string Universityname
+        { get; set; }
+    }
 }

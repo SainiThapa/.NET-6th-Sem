@@ -14,6 +14,17 @@ namespace New_webform.Controllers
         {
             return View();
         }
+        public ActionResult AddCollege()
+        {
+            //List<Collegemodel> college = new List<Collegemodel>();
+            return View();
+        }
+
+        public ActionResult College()
+        {
+            List<Collegemodel> college= new List<Collegemodel>();
+            return View(college);
+        }
         public ActionResult Studentview()
         {
             Studentmodel suman = new Studentmodel();

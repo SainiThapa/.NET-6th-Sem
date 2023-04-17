@@ -6,3 +6,8 @@ E:\Delegate\Delegate\obj\Debug\Delegate.csproj.SuggestedBindingRedirects.cache
 E:\Delegate\Delegate\obj\Debug\Delegate.csproj.CoreCompileInputs.cache
 E:\Delegate\Delegate\obj\Debug\Delegate.exe
 E:\Delegate\Delegate\obj\Debug\Delegate.pdb
+E:\Saini dotNET\Delegate\Delegate\obj\Debug\Delegate.csproj.AssemblyReference.cache
+E:\Saini dotNET\Delegate\Delegate\obj\Debug\Delegate.csproj.SuggestedBindingRedirects.cache
+E:\Saini dotNET\Delegate\Delegate\obj\Debug\Delegate.csproj.CoreCompileInputs.cache
+E:\Saini dotNET\Delegate\Delegate\obj\Debug\Delegate.exe
+E:\Saini dotNET\Delegate\Delegate\obj\Debug\Delegate.pdb

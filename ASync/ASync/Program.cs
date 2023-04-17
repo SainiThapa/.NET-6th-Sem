@@ -12,7 +12,7 @@ namespace ASync
         {
             await Task.Run(() =>
                 {
-                for(int i= 0; i < 10; i++)
+                for(int i= 0; i < 5; i++)
                 {
                     Console.WriteLine($"{i} number from function1");
                 }
@@ -20,7 +20,7 @@ namespace ASync
         }
         public static async Task function2()
         {
-            for(int i= 0;i<10; i++)
+            for(int i= 0;i<5; i++)
             Console.WriteLine("Counter from function 2"); 
         }
         static async Task Main()

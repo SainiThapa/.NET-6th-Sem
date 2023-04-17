@@ -25,24 +25,35 @@ namespace Delegate
             obj1.mymethod(1,2);
         }
         static void Main(string[] args)
-        {
-/*            //DELEGATE INT
-            Sum p1 = calculate1;
-            Product d1 = calculate2;
-            Console.WriteLine("Enter two numbers to perform addition and multiplication: ");
-            string a = Console.ReadLine();
-            string b = Console.ReadLine();
-            int c = Convert.ToInt32(a);
-            int d = Convert.ToInt32(b);
-            int result1 = p1(c, d);
-            int result2 = d1(c, d);
-            Console.WriteLine("Sum = " + result1);
-            Console.WriteLine("Product = " + result2);/*/
+        { 
+                string pathName = @"saini.txt";
+                string writeText = "My name is Saini Thapa";
+                File.WriteAllText("saini.txt", writeText);
+                string readText = File.ReadAllText("saini.txt");
+                Console.WriteLine(readText);
+                Console.ReadKey();
+            }
+        }
+    
 
-            //DELEGATE CLASSOBJ
-            Program1 obj1 = new Program1();
+    /*            //DELEGATE INT
+                Sum p1 = calculate1;
+                Product d1 = calculate2;
+                Console.WriteLine("Enter two numbers to perform addition and multiplication: ");
+                string a = Console.ReadLine();
+                string b = Console.ReadLine();
+                int c = Convert.ToInt32(a);
+                int d = Convert.ToInt32(b);
+                int result1 = p1(c, d);
+                int result2 = d1(c, d);
+                Console.WriteLine("Sum = " + result1);
+                Console.WriteLine("Product = " + result2);/*/
+
+    /*//DELEGATE CLASSOBJ
+    Program1 obj1 = new Program1();
             myDelegate D = myFunction;
             D(obj1);
         }
     }
+*/
 }

@@ -186,9 +186,7 @@ namespace Saini_dotNET
             var result = a > b ? a : b;
             Console.WriteLine(result + " is the greatest number");
         }
-
-    static void Main(string[] args)
-        {
+        /*
             Console.WriteLine("Hello Saini");
             string a, b;
             Console.WriteLine("Input the value of a and b : ");
@@ -205,7 +203,30 @@ namespace Saini_dotNET
             For_Each_Method();
             structure();
             Enumeration();
-            TernaryOp();
+            TernaryOp();*/
+
+    static void Main(string[] args)
+        {
+            Console.WriteLine("My name is Saini Thapa");
+
+            try
+            {
+                string[] Names = new string[5];
+                Names[0] = "Saini";
+                Names[1] = "Sushil";
+                Names[2] = "Suman";
+                Names[3] = "Ramesh";
+                Names[4] = "Raaj";
+                Names[5] = "Santosh";
+                foreach (string name in Names)
+                {
+                    Console.WriteLine(name);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Something went wrong");
+            }
             Console.ReadKey();
         }
     }
@@ -251,21 +272,3 @@ namespace Saini_dotNET
             //mygoat.sleep();
 
             //Try and catch
-            /*try
-            {
-                string[] Names = new string[5];
-                Names[0] = "Saini";
-                Names[1] = "Sushil";
-                Names[2] = "Suman";
-                Names[3] = "Ramesh";
-                Names[4] = "Raaj";
-                //Names[5] = "Santosh";
-                foreach (string name in Names)
-                {
-                    Console.WriteLine(name);
-                }
-            }
-            catch(Exception e)
-            {
-                Console.WriteLine("Something went wrong");
-            }*/

@@ -10,7 +10,9 @@ namespace Delegate
     {
         public void mymethod(int x, int y)
         {
-            Console.WriteLine("mymethod called with {0} and {1} ", x, y);
+            Console.WriteLine("My name is Saini Thapa");
+
+            //Console.WriteLine("mymethod called with {0} and {1} ", x, y);
 
         }
     }

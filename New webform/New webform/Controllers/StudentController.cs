@@ -14,6 +14,12 @@ namespace New_webform.Controllers
         {
             return View();
         }
+
+        //[HttpPost]
+        public ActionResult Createcollege(Collegemodel college)
+        {
+            return RedirectToAction("College"); 
+        }
         public ActionResult AddCollege()
         {
             //List<Collegemodel> college = new List<Collegemodel>();

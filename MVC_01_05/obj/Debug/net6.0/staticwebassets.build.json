@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GATEAtZv/eKaoh4yi340azCndm3TAZxSCYt/2Vtm1To=",
+  "Hash": "cAslingMcABV8/0YvQdMceuljs0Nw3DnvbrHyptfZEM=",
   "Source": "MVC_01_05",
   "BasePath": "_content/MVC_01_05",
   "Mode": "Default",
@@ -1086,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "E:\\Saini dotNET\\MVC_01_05\\wwwroot\\Studentlist.txt",
+      "SourceId": "MVC_01_05",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Saini dotNET\\MVC_01_05\\wwwroot\\",
+      "BasePath": "_content/MVC_01_05",
+      "RelativePath": "Studentlist.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Studentlist.txt"
     }
   ]
 }

@@ -8,18 +8,20 @@ namespace MVC_01_05.Controllers
         public ActionResult College()
         {
             List<CollegeModel> colleges = new List<CollegeModel>();
-            StreamReader sr = new StreamReader("wwwroot/college.txt");
-            string wline=sr.ReadLine();
+            string fileName = "wwwroot/Studentlist.txt";
+            StreamReader sr = new StreamReader(fileName);
+            string wline = sr.ReadLine();
             while (wline != null)
             {
                 string[] collegeDetails = wline.Split(",");
-                CollegeModel college= new CollegeModel();
+                CollegeModel college = new CollegeModel();
                 college.collegename = collegeDetails[0];
                 college.Address = collegeDetails[1];
                 college.Universityname = collegeDetails[2];
                 colleges.Add(college);
                 wline = sr.ReadLine();
             }
+            sr.Close();
             return View(colleges);
         }
         public ActionResult AddCollege()
@@ -30,7 +32,7 @@ namespace MVC_01_05.Controllers
         public ActionResult Createcollege(CollegeModel college)
         {
             string datatoSave = college.collegename + "," + college.Address + "," + college.Universityname;
-            StreamWriter sw = new StreamWriter("wwwroot/college.txt",true);
+            StreamWriter sw = new StreamWriter("wwwroot/Studentlist.txt",append: true);
             sw.WriteLine(datatoSave);
             sw.Close();
             return RedirectToAction("College");

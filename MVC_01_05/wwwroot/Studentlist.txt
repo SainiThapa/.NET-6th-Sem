@@ -1,0 +1,3 @@
+BMC,Bhaktapur,Tribhuvan University
+Prithvi Narayan ,Pokhara,Tribhuvan University
+NOC,Sanepa,Pokhara University

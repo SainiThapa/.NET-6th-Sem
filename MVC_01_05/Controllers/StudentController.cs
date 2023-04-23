@@ -5,6 +5,12 @@ namespace MVC_01_05.Controllers
 {
     public class StudentController : Controller
     {
+        List<CollegeModel> college = new List<CollegeModel>();
+        public ActionResult Getdate()
+        {
+            Interface dateServices = new DateServices();
+            return Content(dateServices.Getdate().ToString());
+        }
         public ActionResult College()
         {
             List<CollegeModel> colleges = new List<CollegeModel>();
@@ -24,8 +30,7 @@ namespace MVC_01_05.Controllers
             sr.Close();
             return View(colleges);
         }
-        public ActionResult AddCollege()
-        {
+        public ActionResult AddCollege()        {
             return View();
         }
         [HttpPost]

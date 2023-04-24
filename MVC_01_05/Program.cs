@@ -1,7 +1,11 @@
+using MVC_01_05.Controllers;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddTransient<Interface,NDateservice>();
+
 
 var app = builder.Build();
 

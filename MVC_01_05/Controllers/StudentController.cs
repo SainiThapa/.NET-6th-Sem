@@ -5,11 +5,16 @@ namespace MVC_01_05.Controllers
 {
     public class StudentController : Controller
     {
+        Interface _services; //instance
         List<CollegeModel> college = new List<CollegeModel>();
+        public StudentController(Interface dateServices)
+        {
+            _services = dateServices;
+        }
         public ActionResult Getdate()
         {
-            Interface dateServices = new DateServices();
-            return Content(dateServices.Getdate().ToString());
+            //Interface dateServices = new NDateservice();
+            return Content(_services.Getdate().ToString());
         }
         public ActionResult College()
         {

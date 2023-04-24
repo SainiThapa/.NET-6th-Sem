@@ -5,7 +5,7 @@ namespace MVC_01_05.Controllers
 {
     public class StudentController : Controller
     {
-        Interface _services; //instance
+        Interface _services;
         List<CollegeModel> college = new List<CollegeModel>();
         public StudentController(Interface dateServices)
         {
@@ -16,7 +16,7 @@ namespace MVC_01_05.Controllers
             //Interface dateServices = new NDateservice();
             return Content(_services.Getdate().ToString());
         }
-        public ActionResult College()
+        /*public ActionResult College()
         {
             List<CollegeModel> colleges = new List<CollegeModel>();
             string fileName = "wwwroot/Studentlist.txt";
@@ -45,6 +45,20 @@ namespace MVC_01_05.Controllers
             StreamWriter sw = new StreamWriter("wwwroot/Studentlist.txt",append: true);
             sw.WriteLine(datatoSave);
             sw.Close();
+            return RedirectToAction("College");
+        }*/
+        public ActionResult College1()
+        {
+            List<CollegeModel> college = new List<CollegeModel>();
+            return View(college);
+        }
+        public ActionResult AddCollege1()
+        {
+            return View();
+        }
+
+        public ActionResult CreateCollege1(CollegeModel college)
+        {
             return RedirectToAction("College");
         }
     }

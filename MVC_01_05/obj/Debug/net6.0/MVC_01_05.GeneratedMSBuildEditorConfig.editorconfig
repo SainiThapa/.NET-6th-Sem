@@ -36,8 +36,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxBZGRDb2xsZWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Saini dotNET/MVC_01_05/Views/Student/AddCollege1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxBZGRDb2xsZWdlMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Saini dotNET/MVC_01_05/Views/Student/College.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDb2xsZWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Saini dotNET/MVC_01_05/Views/Student/College1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDb2xsZWdlMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Saini dotNET/MVC_01_05/Views/_ViewImports.cshtml]

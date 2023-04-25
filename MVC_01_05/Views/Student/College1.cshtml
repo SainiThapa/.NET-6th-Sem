@@ -7,11 +7,15 @@
 <h1>College1</h1>
 
 <p>
-    <a asp-action="AddCollege1">Create New</a>
+    <a asp-action="AddToData">Create New</a>
 </p>
 <table class="table">
     <thead>
         <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.collegename)
             </th>

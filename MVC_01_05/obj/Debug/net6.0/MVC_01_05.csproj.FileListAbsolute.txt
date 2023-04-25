@@ -245,3 +245,9 @@ E:\Saini dotNET\MVC_01_05\obj\Debug\net6.0\refint\MVC_01_05.dll
 E:\Saini dotNET\MVC_01_05\obj\Debug\net6.0\MVC_01_05.pdb
 E:\Saini dotNET\MVC_01_05\obj\Debug\net6.0\MVC_01_05.genruntimeconfig.cache
 E:\Saini dotNET\MVC_01_05\obj\Debug\net6.0\ref\MVC_01_05.dll
+E:\Saini dotNET\MVC_01_05\bin\Debug\net6.0\System.Data.SqlClient.dll
+E:\Saini dotNET\MVC_01_05\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+E:\Saini dotNET\MVC_01_05\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+E:\Saini dotNET\MVC_01_05\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+E:\Saini dotNET\MVC_01_05\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Saini dotNET\MVC_01_05\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MVC_01_05.Models;
+using System.Data.SqlClient;
 
 namespace MVC_01_05.Controllers
 {
@@ -52,7 +53,7 @@ namespace MVC_01_05.Controllers
             List<CollegeModel> college = new List<CollegeModel>();
             return View(college);
         }
-        public ActionResult AddCollege1()
+        public ActionResult AddToData()
         {
             return View();
         }
@@ -61,5 +62,18 @@ namespace MVC_01_05.Controllers
         {
             return RedirectToAction("College");
         }
+        [HttpPost]
+        public ActionResult AddToData(CollegeModel College)
+        {
+                //Connection String
+                string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=HamroDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;";
+                SqlConnection conn = new SqlConnection(connectionString); //Connection
+                conn.Open();//Connnection open
+                string command = "Insert into Students Values(1,'BMC','Bhaktapur','Tribhuvan University')";
+                SqlCommand cmd = new SqlCommand(command, conn); // Sql Command
+                cmd.ExecuteNonQuery(); //Execute command
+                return View();
+        }
+
     }
 }

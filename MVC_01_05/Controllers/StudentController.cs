@@ -69,7 +69,7 @@ namespace MVC_01_05.Controllers
                 string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=HamroDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;";
                 SqlConnection conn = new SqlConnection(connectionString); //Connection
                 conn.Open();//Connnection open
-                string command = "Insert into Students Values(1,'BMC','Bhaktapur','Tribhuvan University')";
+                string command = "Insert into Student Values(1,'BMC','Bhaktapur','Tribhuvan University')";
                 SqlCommand cmd = new SqlCommand(command, conn); // Sql Command
                 cmd.ExecuteNonQuery(); //Execute command
                 return View();

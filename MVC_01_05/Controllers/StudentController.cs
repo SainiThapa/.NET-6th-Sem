@@ -63,13 +63,14 @@ namespace MVC_01_05.Controllers
             return RedirectToAction("College");
         }
         [HttpPost]
-        public ActionResult AddToData(CollegeModel College)
+        public ActionResult AddToDatabase(CollegeModel College)
         {
                 //Connection String
-                string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=HamroDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;";
+                string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CollegeDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;";
                 SqlConnection conn = new SqlConnection(connectionString); //Connection
                 conn.Open();//Connnection open
-                string command = "Insert into Student Values(1,'BMC','Bhaktapur','Tribhuvan University')";
+                //string command = "Insert into Student(Id, CollegeName, Address, UniversityName) Values(1,'BMC','Bhaktapur','Tribhuvan University')";
+                string command = "Insert into Student(Id, CollegeName, Address, UniversityName) Values(2,'Prithvi Narayan Campus','Pokhara','Tribhuvan University'),(3,'NOC','Sanepa','PU')";
                 SqlCommand cmd = new SqlCommand(command, conn); // Sql Command
                 cmd.ExecuteNonQuery(); //Execute command
                 return View();

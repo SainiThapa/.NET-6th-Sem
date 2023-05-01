@@ -50,8 +50,24 @@ namespace MVC_01_05.Controllers
         }*/
         public ActionResult College1()
         {
-            List<CollegeModel> college = new List<CollegeModel>();
-            return View(college);
+            string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CollegeDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;";
+            SqlConnection conn = new SqlConnection(connectionString); //Connection
+            conn.Open();
+            string command = "SELECT * FROM Student";
+            SqlCommand cmd = new SqlCommand(command, conn);
+            SqlDataReader r = cmd.ExecuteReader();
+            List<CollegeModel> colleges = new List<CollegeModel>();
+            while (r.Read())
+            {
+                CollegeModel college = new CollegeModel();
+                college.Id = Convert.ToInt32(r["Id"]);
+                college.collegename = Convert.ToString(r["collegename"]);
+                college.Address = Convert.ToString(r["Address"]);
+                college.Universityname = Convert.ToString(r["Universityname"]);
+                colleges.Add(college);
+            }
+            conn.Close();
+            return View(colleges);
         }
         public ActionResult AddToData()
         {
@@ -68,13 +84,21 @@ namespace MVC_01_05.Controllers
                 //Connection String
                 string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CollegeDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;";
                 SqlConnection conn = new SqlConnection(connectionString); //Connection
-                conn.Open();//Connnection open
-                //string command = "Insert into Student(Id, CollegeName, Address, UniversityName) Values(1,'BMC','Bhaktapur','Tribhuvan University')";
-                string command = "Insert into Student(Id, CollegeName, Address, UniversityName) Values(2,'Prithvi Narayan Campus','Pokhara','Tribhuvan University'),(3,'NOC','Sanepa','PU')";
+                conn.Open();//Connection open
+                            //string command = "Insert into Student(Id, CollegeName, Address, UniversityName) Values(1,'BMC','Bhaktapur','Tribhuvan University')";
+                            //string command = "Insert into Student(Id, CollegeName, Address, UniversityName) Values(2,'Prithvi Narayan Campus','Pokhara','Tribhuvan University'),(3,'NOC','Sanepa','PU')";
+            string command = "Insert into Student Values('" + College.Id + "','" + College.collegename + "','" + College.Address + "','" + College.Universityname + "')";
                 SqlCommand cmd = new SqlCommand(command, conn); // Sql Command
-                cmd.ExecuteNonQuery(); //Execute command
-                return View();
+            cmd.ExecuteNonQuery(); //Execute command
+            conn.Close();
+            return RedirectToAction("College");
         }
+        /*public IActionResult StudentList(CollegeModel College)
+        {
+            
+            return View();
+
+        }*/
 
     }
 }

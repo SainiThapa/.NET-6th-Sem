@@ -76,7 +76,7 @@ namespace MVC_01_05.Controllers
 
         public ActionResult CreateCollege1(CollegeModel college)
         {
-            return RedirectToAction("College");
+            return RedirectToAction("College1");
         }
         [HttpPost]
         public ActionResult AddToDatabase(CollegeModel College)
@@ -90,15 +90,46 @@ namespace MVC_01_05.Controllers
             string command = "Insert into Student Values('" + College.Id + "','" + College.collegename + "','" + College.Address + "','" + College.Universityname + "')";
                 SqlCommand cmd = new SqlCommand(command, conn); // Sql Command
             cmd.ExecuteNonQuery(); //Execute command
-            conn.Close();
-            return RedirectToAction("College");
-        }
-        /*public IActionResult StudentList(CollegeModel College)
-        {
-            
-            return View();
+            conn.Close();  
 
-        }*/
+            return RedirectToAction("College1");
+        }
+        [HttpGet]
+        public ActionResult EditCollege(int id)
+        {
+            string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CollegeDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;";
+            SqlConnection conn = new SqlConnection(connectionString); //Connection
+            conn.Open();
+            string command = "SELECT * FROM Student WHERE Id = " + id;
+            SqlCommand cmd= new SqlCommand(command, conn); 
+            SqlDataReader rd = cmd.ExecuteReader();
+            CollegeModel College = new CollegeModel();
+            while (rd.Read())
+            {
+                College.Id = Convert.ToInt32(rd["id"]);
+                College.collegename = Convert.ToString(rd["collegename"]);
+                College.Address = Convert.ToString(rd["Address"]);
+                College.Universityname = Convert.ToString(rd["Universityname"]);
+            }
+            conn.Close();
+            return View(College);
+
+        }
+        [HttpPost]
+        public IActionResult UpdateCollege(CollegeModel student)
+        {
+            string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CollegeDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;";
+            SqlConnection conn = new SqlConnection(connectionString);
+            conn.Open();
+
+            string command = "Update Student set Universityname='" + student.Universityname + "', collegename='" + student.collegename + "', Address ='" + student.Address + "' where Id='" + student.Id + "'";
+            SqlCommand cmd = new SqlCommand(command, conn);
+            cmd.ExecuteNonQuery();
+
+            conn.Close();
+
+            return RedirectToAction("College1");
+        }
 
     }
 }

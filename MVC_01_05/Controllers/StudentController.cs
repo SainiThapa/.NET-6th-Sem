@@ -130,6 +130,18 @@ namespace MVC_01_05.Controllers
 
             return RedirectToAction("College1");
         }
+        public IActionResult DeleteCollege(int id)
+        {
+            string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CollegeDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;";
+            SqlConnection conn = new SqlConnection(connectionString);
+            conn.Open();
 
+            string command = "DELETE FROM Student WHERE Id = " + id;
+            SqlCommand cmd = new SqlCommand(command,conn);
+            cmd.ExecuteNonQuery();  
+            conn.Close();
+
+            return RedirectToAction("College1");
+        }
     }
 }

@@ -143,5 +143,26 @@ namespace MVC_01_05.Controllers
 
             return RedirectToAction("College1");
         }
+        public IActionResult Details(int id) 
+        {
+            string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CollegeDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;";
+            SqlConnection conn = new SqlConnection(connectionString);
+            conn.Open();
+
+            string command = "SELECT * FROM Student WHERE Id = " + id;
+            SqlCommand cmd = new SqlCommand(command, conn);
+            SqlDataReader rd = cmd.ExecuteReader();
+            CollegeModel College = new CollegeModel();
+
+            if (rd.Read())
+            {
+                College.Id = Convert.ToInt32(rd["Id"]);
+                College.collegename = Convert.ToString(rd["collegename"]);
+                College.Address = Convert.ToString(rd["Address"]);
+                College.Universityname = Convert.ToString(rd["Universityname"]);
+            }
+            conn.Close();
+            return View(College);
+        }
     }
 }

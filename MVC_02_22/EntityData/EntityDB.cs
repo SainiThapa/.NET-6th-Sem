@@ -7,8 +7,8 @@ namespace MVC_02_22.EntityData
         public EntityDB(DbContextOptions<EntityDB> options) : base(options) { 
         }
 
-        DbSet<Student> Students { get; set; }
-        DbSet<TextReader> Teachers { get; set; }
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Teacher> Teachers { get; set; }
 
     }
 }

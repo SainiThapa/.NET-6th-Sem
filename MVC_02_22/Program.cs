@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<EntityDB>(x => x.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog = Teacher; Integrated Security = True; Connect Timeout = 30; Encrypt = False;"));
+builder.Services.AddDbContext<EntityDB>(x => x.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=StudentDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

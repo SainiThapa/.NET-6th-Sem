@@ -31,7 +31,7 @@ namespace MVC_02_22.Controllers
         public IActionResult AddSession()
         {
             HttpContext.Session.SetString("Username", "Saini");
-            Response.Cookies.Append("course", "Netcentric");
+            Response.Cookies.Append("StudentId", "23264");
             return View();
         }
 
@@ -41,15 +41,14 @@ namespace MVC_02_22.Controllers
             ViewBag.Username = username;
             ViewData["college"] = "Horizon GBS";
             TempData["address"] = "Tilotama";
-            string course = HttpContext.Request.Cookies["course"].ToString();
-            ViewBag.Course = course;
+            string StudentId= HttpContext.Request.Cookies["StudentId"].ToString();
+            ViewBag.StudentId = StudentId;
             return View();
         }
-        public IActionResult ReadContent()
+        public IActionResult RemoveCookie()
         {
-            string username = HttpContext.Session.GetString("Username");
-            string course = HttpContext.Request.Cookies["course"].ToString();
-            return Content(username + " is reading "  +  course);
+            return View();
         }
+
     }
 }

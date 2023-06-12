@@ -3,7 +3,60 @@
     ViewData["Title"] = "ReadSession";
 }
 
-<h1>ReadSession</h1>
+@*<h1>ReadSession</h1>
 <h1>Hello @ViewBag.username</h1>
 <h1>@ViewData["college"], @TempData["address"]</h1>
 <h2>Course : @ViewBag.course</h2>
+*@
+<h1>Edit Student</h1>
+<h2>The id of Student need to be edited is @ViewBag.StudentId</h2>
+<form>
+    <div class="form-control">
+        <label>Name</label>
+        <input id="name" type="text" 
+    </div>
+    <div class="form-control">
+        <label>Address</label>
+        <input id="address" type="text" />
+    </div>
+    <div class="form-control">
+        <label>is Married</label>
+        <input id="ismarried" type="checkbox"/>
+    </div>
+    <div class="form-control">
+        <label>Age</label>
+        <input id="age" type="number" />
+    </div>
+    <div class="form-control">
+        <label>Gender</label>
+        <select id="gender">
+            <option value="">Select your gender</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+        </select>
+    </div>
+    <div class="form-control">
+        <input id="btn-save" value="Submit" type="submit"/>
+    </div>
+</form>
+
+<script>
+    $('#ismarried').on('change',function(){
+    var isMarried = $('#ismarried').prop('checked');
+    if(isMarried){
+        $('#age').val(25);
+    }
+    else
+    {
+        $('#age').val('');
+    }
+    })
+    $('form').on('submit',function(){
+        var name=$('#name').val();
+        var lengthofname = name.length;
+        if(lengthofname < 5){
+            alert("Length of name cannot be less than 5 characters")
+            return false;
+        }
+    })
+</script>

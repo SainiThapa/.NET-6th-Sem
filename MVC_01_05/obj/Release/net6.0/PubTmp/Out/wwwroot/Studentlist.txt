@@ -1,0 +1,5 @@
+BMC,Bhaktapur,Tribhuvan University
+Prithvi Narayan ,Pokhara,Tribhuvan University
+NOC,Sanepa,Pokhara University
+Pulchowk Engineering College,Pulchowk,Tribhuvan University
+Patan College for professional studies,Kupondole,Bedfordshire University

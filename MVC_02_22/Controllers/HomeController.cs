@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MVC_02_22.Models;
 using System.Diagnostics;
 
@@ -13,7 +14,8 @@ namespace MVC_02_22.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        [Authorize (Roles ="Admin,Staff")]
+        public IActionResult    Index()
         {
             return View();
         }

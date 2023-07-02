@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "evaEZ6hSWgWUW9a2fFzDVaByI8uxy8Ni3KnW1R7SmzRsnmx53Qo0QfVV3p4pbE+m6Sdy79MBJnvcmn4orz5Ekg==",
+  "dgSpecHash": "3+obRhGNDW4wQ1NAVAA1rLHIbVvYewFb/71WKs2YXUmDoJ2Q4/YwNwEEtPqH6o8RtGhCRPev6ZgLomvD0fXI8A==",
   "success": true,
   "projectFilePath": "E:\\Saini dotNET\\WebMVC\\WebMVC\\WebMVC.csproj",
   "expectedPackageFiles": [
@@ -151,7 +151,11 @@
     "C:\\Users\\LENOVO\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\LENOVO\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }

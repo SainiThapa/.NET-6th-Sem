@@ -12,8 +12,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddSession();
 builder.Services.AddDbContext<EntityDB>(x => x.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=StudentDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;"));
-builder.Services.AddIdentity<IdentityUser,IdentityRole>()
-    .AddEntityFrameworkStores<EntityDB>();
+//builder.Services.AddIdentity<IdentityUser,IdentityRole>()
+//AddEntityFrameworkStores<EntityDB>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

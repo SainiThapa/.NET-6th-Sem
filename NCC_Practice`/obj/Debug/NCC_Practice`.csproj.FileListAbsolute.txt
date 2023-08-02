@@ -1,0 +1,8 @@
+E:\Saini dotNET\NCC_Practice`\bin\Debug\NCC_Practice`.exe.config
+E:\Saini dotNET\NCC_Practice`\bin\Debug\NCC_Practice`.exe
+E:\Saini dotNET\NCC_Practice`\bin\Debug\NCC_Practice`.pdb
+E:\Saini dotNET\NCC_Practice`\obj\Debug\NCC_Practice`.csproj.AssemblyReference.cache
+E:\Saini dotNET\NCC_Practice`\obj\Debug\NCC_Practice`.csproj.SuggestedBindingRedirects.cache
+E:\Saini dotNET\NCC_Practice`\obj\Debug\NCC_Practice`.csproj.CoreCompileInputs.cache
+E:\Saini dotNET\NCC_Practice`\obj\Debug\NCC_Practice`.exe
+E:\Saini dotNET\NCC_Practice`\obj\Debug\NCC_Practice`.pdb

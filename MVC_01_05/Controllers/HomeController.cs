@@ -16,7 +16,22 @@ namespace MVC_01_05.Controllers
         {
             return View();
         }
-
+        public IActionResult Saini()
+        {
+            return PartialView();
+        }
+        public IActionResult Contact()
+        {
+            return PartialView();
+        }
+        public IActionResult About()
+        {
+            return PartialView();
+        }
+        public IActionResult Services()
+        {
+            return PartialView();
+        }
         public IActionResult Privacy()
         {
             return View();

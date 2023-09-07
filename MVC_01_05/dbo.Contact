@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Contact]
+(
+    [Id]             INT          NOT NULL,
+    [Name]    VARCHAR (30) NOT NULL,
+    [Email]        VARCHAR (50) NULL,
+    [Message] VARCHAR (150) NOT NULL,
+);

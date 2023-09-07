@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Saini dotNET\WebMVC\WebMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/Saini dotNET/WebMVC/WebMVC/Views/Bmc/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm1jXENvbnRhY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Saini dotNET/WebMVC/WebMVC/Views/Bmc/Help.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm1jXEhlbHAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,8 +36,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm1jXFNhaW5pLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Saini dotNET/WebMVC/WebMVC/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Saini dotNET/WebMVC/WebMVC/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Saini dotNET/WebMVC/WebMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Saini dotNET/WebMVC/WebMVC/Views/Home/Portfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3J0Zm9saW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Saini dotNET/WebMVC/WebMVC/Views/Home/Privacy.cshtml]

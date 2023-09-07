@@ -1,0 +1,29 @@
+﻿/*body {
+    margin: 10px;
+    background-color:#fff;
+}*/
+h1 {
+    font-size: 50px;
+}
+
+.contact {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+    .contact a {
+        display: contents;
+        color: #1800aa;
+    }
+
+h5 {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: rgb(175, 175, 175);
+}
+
+.contact button a {
+    color: black;
+}

@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\Saini dotNET\\project_NCC\\wwwroot\\hello.txt",
+      "PackagePath": "staticwebassets\\hello.txt"
+    },
+    {
       "Id": "E:\\Saini dotNET\\project_NCC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -23,8 +23,23 @@ namespace WebMVC.Controllers
         }
         public IActionResult Saini()
         {
-            return View();
+            return PartialView();
         }
+
+        public IActionResult Contact()
+        {
+            return PartialView();
+        }
+        public IActionResult About() 
+        {
+            return PartialView();
+        }
+
+        public IActionResult Portfolio()
+        {
+            return PartialView();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Myfiles\\hello.txt"
     },
     {
+      "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
       "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\CV.pdf",
+      "PackagePath": "staticwebassets\\images\\CV.pdf"
     },
     {
       "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\Pictu.png",
@@ -37,8 +45,16 @@
       "PackagePath": "staticwebassets\\images\\img1.jpg"
     },
     {
+      "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\img2.jpg",
+      "PackagePath": "staticwebassets\\images\\img2.jpg"
+    },
+    {
       "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\img22.jpg",
       "PackagePath": "staticwebassets\\images\\img22.jpg"
+    },
+    {
+      "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\img3.jpg",
+      "PackagePath": "staticwebassets\\images\\img3.jpg"
     },
     {
       "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\img33.jpg",
@@ -47,6 +63,18 @@
     {
       "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\logo1.PNG",
+      "PackagePath": "staticwebassets\\images\\logo1.PNG"
+    },
+    {
+      "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\logo2.PNG",
+      "PackagePath": "staticwebassets\\images\\logo2.PNG"
+    },
+    {
+      "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\images\\new.png",
+      "PackagePath": "staticwebassets\\images\\new.png"
     },
     {
       "Id": "E:\\Saini dotNET\\WebMVC\\WebMVC\\wwwroot\\js\\site.js",

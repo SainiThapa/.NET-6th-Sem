@@ -1,10 +1,24 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WebMVC.Models;
+using System.Data.SqlClient;
 
 namespace WebMVC.Controllers
 {
     public class BmcController : Controller
     {
+        List<ContactModel> contacts=new List<ContactModel>();
+        
+        
+        
+        public IActionResult AddCollege()
+        {
+            return View();
+        }
         public IActionResult Home()
+        {
+            return View();
+        }
+        public IActionResult Contact()
         {
             return View();
         }
@@ -12,22 +26,7 @@ namespace WebMVC.Controllers
         {
             return View();
         }
-        public ContentResult Content()
-        {
-            return Content("I am a sociopath but in Contentresult");
-        }
-        public IActionResult json()
-        {
-            return Json(new { id = 1, name = "suman" });
-        }
-        public IActionResult Partial()
-        {
-            return PartialView("Home");
-        }
-        public IActionResult Saini()
-        {
-            return PartialView();
-        }
+
         public IActionResult Download() 
         {
             return File("Myfiles/hello.txt","text/plain","file23.dat");

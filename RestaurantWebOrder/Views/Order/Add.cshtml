@@ -1,0 +1,31 @@
+﻿@model RestaurantWebOrder.Models.AddOrderModel
+@{
+
+}
+<h1>Add Orders</h1>
+<form method="post" action="Add" class="mt-5">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1">Customer Name</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlSelect1">Item Type</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Select an option</option>
+            <option>Veg</option>
+            <option>Non-Veg</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlSelect2">Name of Item</label><br />
+        <select class="form-control" id="exampleFormControlSelect2" placeholder="Select an option">
+            <option>Select an option</option>
+            <option>Pizza</option>
+            <option>Burger</option>
+            <option>Sandwich</option>
+            <option>Naan</option>
+            <option>Curry</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

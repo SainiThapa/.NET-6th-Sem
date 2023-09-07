@@ -1,0 +1,8 @@
+E:\Saini dotNET\CRUD\obj\Release\net6.0\CRUD.csproj.AssemblyReference.cache
+E:\Saini dotNET\CRUD\obj\Release\net6.0\CRUD.GeneratedMSBuildEditorConfig.editorconfig
+E:\Saini dotNET\CRUD\obj\Release\net6.0\CRUD.AssemblyInfoInputs.cache
+E:\Saini dotNET\CRUD\obj\Release\net6.0\CRUD.AssemblyInfo.cs
+E:\Saini dotNET\CRUD\obj\Release\net6.0\CRUD.csproj.CoreCompileInputs.cache
+E:\Saini dotNET\CRUD\obj\Release\net6.0\CRUD.MvcApplicationPartsAssemblyInfo.cache
+E:\Saini dotNET\CRUD\obj\Release\net6.0\CRUD.RazorAssemblyInfo.cache
+E:\Saini dotNET\CRUD\obj\Release\net6.0\CRUD.RazorAssemblyInfo.cs

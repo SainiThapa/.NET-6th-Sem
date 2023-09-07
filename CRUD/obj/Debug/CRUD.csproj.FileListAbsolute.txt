@@ -1,0 +1,8 @@
+E:\Saini dotNET\CRUD\bin\Debug\CRUD.exe.config
+E:\Saini dotNET\CRUD\bin\Debug\CRUD.exe
+E:\Saini dotNET\CRUD\bin\Debug\CRUD.pdb
+E:\Saini dotNET\CRUD\obj\Debug\CRUD.csproj.AssemblyReference.cache
+E:\Saini dotNET\CRUD\obj\Debug\CRUD.csproj.SuggestedBindingRedirects.cache
+E:\Saini dotNET\CRUD\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+E:\Saini dotNET\CRUD\obj\Debug\CRUD.exe
+E:\Saini dotNET\CRUD\obj\Debug\CRUD.pdb

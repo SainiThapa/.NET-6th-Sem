@@ -15,6 +15,7 @@ namespace project_NCC.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Title = "Hello Everyone. Welcome To our website.";
             return View();
         }
 
@@ -22,7 +23,10 @@ namespace project_NCC.Controllers
         {
             return View();
         }
-
+        public IActionResult Saini()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

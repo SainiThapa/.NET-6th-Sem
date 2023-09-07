@@ -1,0 +1,13 @@
+﻿<html>
+    <body>
+        @*Username : <h1>@TempData["name"]</h1>
+        @{TempData.Keep();}*@
+    @{
+        var nam = TempData.Peek("name");
+     }
+        Username : <h1> @nam </h1>
+        @Html.ActionLink("Click me","First");
+    @*@ViewBag.Name <br />
+        Password : @ViewBag.Password <br />*@
+    </body>
+</html>

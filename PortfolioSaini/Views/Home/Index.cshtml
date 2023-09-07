@@ -1,0 +1,184 @@
+﻿@*{
+    ViewData["Title"] = "Home Page";
+}*@
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+<html lang="en">
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../wwwroot/css/styling.css">
+    <script src="https://kit.fontawesome.com/071ff2c21e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav class="myNav">
+            <!-- Any element can be used here -->
+            <img src="images/logo2.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="loading.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="Header_text">
+        <p> Back-End developer</p>
+        <h1>Hi, I'm <span>Prisan</span> from<br> Nepal</h1>
+    </div>
+    <!------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/Image.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="Subtitle">About Me</h1>
+                    <p>Hi, my name is Saini Thapa Magar. I am currently studying Bsc. CSIT in Tribhuvan University, Nepal. I haven't had much experience working on the web app development platforms before but I am starting to learn about it since past few months. What else can I say, You Live and You Learn.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Back-End Designing</span> <br>Monitoring the backend server</li>
+                            <li><span>Web Development</span> <br>Web app development</li>
+                            <li><span>Software development</span> <br> Building Windows compatible applications</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-now</span><br>Working on an E-commerce website project</li>
+                            <li><span>2022-2023</span><br>Working on Python/Django Project</li>
+                            <li><span>2021-2022</span><br>Project work on Computer Graphics</li>
+                        </ul>
+                    </div><div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span> <br>Joined Django internship training at NextGen</li>
+                            <li><span>2019</span> <br>Joined TU, Bsc.CSIT program</li>
+                            <li><span>2018</span> <br>Intermediate   from Horizon Gautam Buddha college</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="Subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>Services like Front end development of small companies and constructive approach to a better interactive models of such websites.</p>
+                    <a href="loading.html">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Services includes designing website in a way that ensures the best possible interaction with the targetted audience.</p>
+                    <a href="loading.html">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Backend developing</h2>
+                    <p>Services like connecting the data provided by the user to a common server and making use of it accordingly. (User Registration and login, User Authentication, etc.)</p>
+                    <a href="loading.html">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PORTFOLIO -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="Subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/img1.jpg">
+                    <div class="layer">
+                        <h3>E-commerce Website</h3>
+                        <p>An online gateway for the buying and selling of products in a more convenient way.</p>
+                        <a href="loading.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img22.jpg">
+                    <div class="layer">
+                        <h3>Social Media app</h3>
+                        <p>This app connects you to highly skilled people all around the world</p>
+                        <a href="loading.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img33.jpg">
+                    <div class="layer">
+                        <h3>UI for an E-Payment app</h3>
+                        <p>Smooth user interface for a better interaction of users with the application</p>
+                        <a href="loading.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="loading.html" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>magarprisu4747@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9821914747</p>
+                    <div class="social-icons">
+                        <a target="parent" href="https://www.facebook.com/hanbin.magar"><i class="fab fa-facebook"></i></a>
+                        <a target="parent" href="https://www.github.com/SainiThapa"><i class="fa-brands fa-github"></i></a>
+                        <a target="parent" href="https://www.instagram.com/priz_47"><i class="fab fa-instagram"></i></a>
+                        <a target="parent" href="https://www.linkedin.com/in/prisan-magar-b3aa15218/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a target="parent" href="images/CV.pdf" class="btn btn2"> Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button class="btn btn2" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Saini. Made with <i class="fa-sharp fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+
+        </body>
+        </html>

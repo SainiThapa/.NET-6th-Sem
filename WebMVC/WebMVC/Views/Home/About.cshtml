@@ -1,0 +1,66 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/styling.css">
+    <script src="https://kit.fontawesome.com/071ff2c21e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="myNav">
+            <!-- Any element can be used here -->
+            <img src="~/images/logo2.png" class="logo">
+            <ul>
+                <li><a asp-controller="Home" asp-action="Saini">Home</a></li>
+                <li><a asp-controller="Home" asp-action="About">About Me</a></li>
+                <li><a asp-controller="Home" asp-action="Portfolio">Services & Work</a></li>
+                <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="~/images/Image.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="Subtitle">About Me</h1>
+                    <p>Hi, my name is Saini Thapa Magar. I am currently studying Bsc. CSIT in Tribhuvan University, Nepal. I haven't had much experience working on the web app development platforms before but I am starting to learn about it since past few months. What else can I say, You Live and You Learn.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Back-End Designing</span> <br>Monitoring the backend server</li>
+                            <li><span>Web Development</span> <br>Web app development</li>
+                            <li><span>Software development</span> <br> Building Windows compatible applications</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-now</span><br>Working on an E-commerce website project</li>
+                            <li><span>2022-2023</span><br>Working on Python/Django Project</li>
+                            <li><span>2021-2022</span><br>Project work on Computer Graphics</li>
+                        </ul>
+                    </div><div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span> <br>Joined Django internship training at NextGen</li>
+                            <li><span>2019</span> <br>Joined TU, Bsc.CSIT program</li>
+                            <li><span>2018</span> <br>Intermediate   from Horizon Gautam Buddha college</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

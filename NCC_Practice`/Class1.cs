@@ -21,6 +21,7 @@ namespace NCC_Practice_
             File.WriteAllText("abc.txt", writeText);
             string readtext = File.ReadAllText("abc.txt");
             Console.WriteLine(readtext);
+
         }
     }
 }

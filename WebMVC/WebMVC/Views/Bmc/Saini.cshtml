@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Saini";
 }
 
@@ -15,17 +14,15 @@
 </head>
 <body>
     <div id="header">
-
         <div class="container">
             <nav class="myNav">
                 <!-- Any element can be used here -->
-                <img src="~/images/logo.png" class="logo">
+                <img src="images/logo2.png" class="logo">
                 <ul>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></li>
-                    <li><a asp-area="" asp-controller="Bmc" asp-action="Help">Help</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a asp-controller="Home" asp-action="Portfolio">Portfolio</a></li>
+                    <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-controller="Home" asp-action="About">About</a></li>
                 </ul>
             </nav>
         </div>
@@ -42,7 +39,7 @@
                     </div>
                     <div class="about-col-2">
                         <h1 class="Subtitle">About Me</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cupiditate ullam asperiores eum obcaecati quasi pariatur sit natus aliquam eius. Saepe cum numquam facilis consequatur nesciunt labore exercitationem ipsam ratione pariatur sapiente ducimus quaerat aliquid deserunt tempore magni sunt, ullam quae. Numquam libero aperiam nobis dicta aliquid, sunt natus perferendis.</p>
+                        <p>Hi, my name is Saini Thapa Magar. I am currently studying Bsc. CSIT in Tribhuvan University, Nepal. I haven't had much experience working on the web app development platforms before but I am starting to learn about it since past few months. What else can I say, You Live and You Learn.</p>
 
                         <div class="tab-titles">
                             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -84,19 +81,19 @@
                     <div>
                         <i class="fa-sharp fa-solid fa-code"></i>
                         <h2>Web Designing</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusantium eos corrupti temporibus tempora, rerum repellat, placeat voluptas voluptatum atque perspiciatis. Adipisci fugit fugiat earum</p>
+                        <p>Services like Front end development of small companies and constructive approach to a better interactive models of such websites.</p>
                         <a href="#">Learn more</a>
                     </div>
                     <div>
                         <i class="fa-sharp fa-solid fa-crop"></i>
                         <h2>UI/UX Design</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusantium eos corrupti temporibus tempora, rerum repellat, placeat voluptas voluptatum atque perspiciatis. Adipisci fugit fugiat earum</p>
+                        <p>Services includes designing website in a way that ensures the best possible interaction with the targetted audience.</p>
                         <a href="#">Learn more</a>
                     </div>
                     <div>
                         <i class="fa-brands fa-app-store"></i>
                         <h2>Backend developing</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia blanditiis vitae magni mollitia ducimus, nihil totam ea. Repudiandae non veritatis sunt alias hic rem nesciunt?</p>
+                        <p>Services like connecting the data provided by the user to a common server and making use of it accordingly. (User Registration and login, User Authentication, etc.)</p>
                         <a href="#">Learn more</a>
                     </div>
                 </div>
@@ -112,7 +109,7 @@
                         <div class="layer">
                             <h3>E-commerce Website</h3>
                             <p>An online gateway for the buying and selling of products in a more convenient way.</p>
-                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            <a href="loading.html"><i class="fa-solid fa-up-right-from-square"></i></a>
                         </div>
                     </div>
                     <div class="work">
@@ -120,7 +117,7 @@
                         <div class="layer">
                             <h3>Social Media app</h3>
                             <p>This app connects you to highly skilled people all around the world</p>
-                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            <a href="loading.html"><i class="fa-solid fa-up-right-from-square"></i></a>
                         </div>
                     </div>
                     <div class="work">
@@ -128,12 +125,42 @@
                         <div class="layer">
                             <h3>UI for an E-Payment app</h3>
                             <p>Smooth user interface for a better interaction of users with the application</p>
-                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            <a href="loading.html"><i class="fa-solid fa-up-right-from-square"></i></a>
                         </div>
                     </div>
                 </div>
-                <a href="#" class="btn">See more</a>
+                <a href="Portfolio" class="btn">See more</a>
             </div>
+        </div>
+        <!-- contact -->
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i>magarprisu4747@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>9821914747</p>
+                        <div class="social-icons">
+                            <a target="parent" href="https://www.facebook.com/hanbin.magar"><i class="fab fa-facebook"></i></a>
+                            <a target="parent" href="https://www.github.com/SainiThapa"><i class="fa-brands fa-github"></i></a>
+                            <a target="parent" href="https://www.instagram.com/priz_47"><i class="fab fa-instagram"></i></a>
+                            <a target="parent" href="https://www.linkedin.com/in/prisan-magar-b3aa15218/"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <a target="parent" href="~/images/CV.pdf" class="btn btn2"> Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button class="btn btn2" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Saini. Made with <i class="fa-sharp fa-solid fa-heart"></i> by Easy Tutorials</p>
         </div>
         <script>
             var tablinks = document.getElementsByClassName("tab-links");
